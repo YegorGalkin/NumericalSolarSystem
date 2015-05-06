@@ -18,7 +18,7 @@ public class Controller : MonoBehaviour
 	void Start()
 	{
 		currentStep_model1 = 0;
-		storage1 = new Storages.VectorMegaStorage(timePerStep,stepNum);
+		storage1 = new Storages.VectorMegaStorage(timePerStep, stepNum);
 		storage1.Initialise();
 	}
 
@@ -34,13 +34,29 @@ public class Controller : MonoBehaviour
 		//	currentStep_model1++;
 		//}
 
-		var v = storage1.GetCoordinatesAtTime((float)time,0);
+		var v = storage1.GetCoordinatesAtTime((float)time, 0);
+		var v100 = storage1.GetCoordinatesAtTime((float)time + 1000, 0);
 
 		int l = planets.Length;
-		for(int i = 0; i < l; i++)
+		for (int i = 0; i < l; i++)
 		{
 			//planets[i].GetComponent<Transform>().position = new Vector3(i * Mathf.Cos((float)((l - i) * time)), i * Mathf.Sin((float)((l - i) * time)), 0);
 			planets[i].GetComponent<Transform>().position = new Vector3(v[i * 3], v[i * 3 + 1], v[i * 3 + 2]);
+			planets[i].GetComponent<LineRenderer>().SetPosition(0, new Vector3(v[i * 3], v[i * 3 + 1], v[i * 3 + 2]));
+			planets[i].GetComponent<LineRenderer>().SetPosition(1, new Vector3(v100[i * 3], v100[i * 3 + 1], v100[i * 3 + 2]));
 		}
+	}
+
+	public Vector3 GetPlanetCoords(GameObject arg_planet, double arg_time)
+	{
+		for(int i = 0; i < planets.Length; i++)
+		{
+			if(planets[i] = arg_planet)
+			{
+				var v = storage1.GetCoordinatesAtTime((float)arg_time, 0);
+				return new Vector3(v[i * 3], v[i * 3 + 1], v[i * 3 + 2]);
+			}
+		}
+		throw new System.Exception("There is no such planet.");
 	}
 }
