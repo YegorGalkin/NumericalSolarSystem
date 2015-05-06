@@ -1,0 +1,15 @@
+C:\Users\Горчик\Source\Repos\Planets\Temp\UnityVS_bin\Debug\Assembly-CSharp.dll
+C:\Users\Горчик\Source\Repos\Planets\Temp\UnityVS_bin\Debug\Assembly-CSharp.pdb
+C:\Users\Горчик\Source\Repos\Planets\Temp\UnityVS_bin\Debug\MathNet.Numerics.dll
+C:\Users\Горчик\Source\Repos\Planets\Temp\UnityVS_bin\Debug\System.Threading.dll
+C:\Users\Горчик\Source\Repos\Planets\Temp\UnityVS_bin\Debug\UnityEditor.dll
+C:\Users\Горчик\Source\Repos\Planets\Temp\UnityVS_bin\Debug\UnityEditor.iOS.Extensions.Xcode.dll
+C:\Users\Горчик\Source\Repos\Planets\Temp\UnityVS_bin\Debug\UnityEngine.dll
+C:\Users\Горчик\Source\Repos\Planets\Temp\UnityVS_bin\Debug\UnityEngine.UI.dll
+C:\Users\Горчик\Source\Repos\Planets\Temp\UnityVS_bin\Debug\UnityEngine.xml
+C:\Users\Горчик\Source\Repos\Planets\Temp\UnityVS_bin\Debug\UnityEditor.xml
+C:\Users\Горчик\Source\Repos\Planets\Temp\UnityVS_bin\Debug\UnityEngine.UI.xml
+C:\Users\Горчик\Source\Repos\Planets\Temp\UnityVS_bin\Debug\UnityEditor.iOS.Extensions.Xcode.xml
+C:\Users\Горчик\Source\Repos\Planets\obj\Debug\UnityVS.Planets.CSharp.csprojResolveAssemblyReference.cache
+C:\Users\Горчик\Source\Repos\Planets\obj\Debug\Assembly-CSharp.dll
+C:\Users\Горчик\Source\Repos\Planets\obj\Debug\Assembly-CSharp.pdb
