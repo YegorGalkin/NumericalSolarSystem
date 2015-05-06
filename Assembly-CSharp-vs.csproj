@@ -64,7 +64,6 @@
      <Compile Include="Assets\Scripts\NewTimeBtn.cs" />
      <Compile Include="Assets\Scripts\PlanetIcon_MouseClick.cs" />
      <Compile Include="Assets\Scripts\SpeedSliderScript.cs" />
-     <Compile Include="Assets\Scripts\Trajectory.cs" />
  <Reference Include="UnityEngine.UI">
  <HintPath>C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/GUISystem/UnityEngine.UI.dll</HintPath>
  </Reference>
