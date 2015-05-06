@@ -1,0 +1,9 @@
+[submodule "Model/NumericSolarSystem"]
+	path = Model/NumericSolarSystem
+	url = https://github.com/YegorGalkin/NumericalSolarSystem.git
+[submodule "Model/NumericalSolarSystem"]
+	path = Model/NumericalSolarSystem
+	url = https://github.com/YegorGalkin/NumericalSolarSystem.git
+[submodule "Assets/Model"]
+	path = Assets/Model
+	url = https://github.com/YegorGalkin/NumericalSolarSystem.git
