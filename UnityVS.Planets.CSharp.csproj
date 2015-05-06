@@ -83,7 +83,7 @@
     <Compile Include="Assets\Scripts\NewTimeBtn.cs" />
     <Compile Include="Assets\Scripts\PlanetIcon_MouseClick.cs" />
     <Compile Include="Assets\Scripts\SpeedSliderScript.cs" />
-    <Compile Include="Assets\Trajectory.cs" />
+    <Compile Include="Assets\Scripts\Trajectory.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath)\SyntaxTree\UnityVS\2013\UnityVS.CSharp.targets" />
 </Project>
