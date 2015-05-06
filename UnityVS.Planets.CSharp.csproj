@@ -54,6 +54,9 @@
     <Reference Include="UnityEngine.UI">
       <HintPath>Library\UnityAssemblies\UnityEngine.UI.dll</HintPath>
     </Reference>
+    <Reference Include="UnityEngine.UI">
+      <HintPath>Library\UnityAssemblies\UnityEngine.UI.dll</HintPath>
+    </Reference>
     <Reference Include="UnityEditor.iOS.Extensions.Xcode">
       <HintPath>Library\UnityAssemblies\UnityEditor.iOS.Extensions.Xcode.dll</HintPath>
     </Reference>
@@ -72,13 +75,7 @@
     <Compile Include="Assets\Model\NumericalMethods\EulerSemiImplicit.cs" />
     <Compile Include="Assets\Model\NumericalMethods\InitialConditions.cs" />
     <Compile Include="Assets\Model\NumericalMethods\RungeKutta.cs" />
-    <Compile Include="Assets\Model\NumericalMethods\obj\Debug\TemporaryGeneratedFile_036C0B5B-1481-4323-8D20-8F5ADCB23D92.cs" />
-    <Compile Include="Assets\Model\NumericalMethods\obj\Debug\TemporaryGeneratedFile_5937a670-0e60-4077-877b-f7221da3dda1.cs" />
-    <Compile Include="Assets\Model\NumericalMethods\obj\Debug\TemporaryGeneratedFile_E7A71F73-0F8D-4B9B-B56E-8E70B10BC5D3.cs" />
     <Compile Include="Assets\Model\Storages\VectorMegaStorage.cs" />
-    <Compile Include="Assets\Model\Storages\obj\Debug\TemporaryGeneratedFile_036C0B5B-1481-4323-8D20-8F5ADCB23D92.cs" />
-    <Compile Include="Assets\Model\Storages\obj\Debug\TemporaryGeneratedFile_5937a670-0e60-4077-877b-f7221da3dda1.cs" />
-    <Compile Include="Assets\Model\Storages\obj\Debug\TemporaryGeneratedFile_E7A71F73-0F8D-4B9B-B56E-8E70B10BC5D3.cs" />
     <Compile Include="Assets\Model\VectorMegaStorage\Program.cs" />
     <Compile Include="Assets\Scripts\CameraMove.cs" />
     <Compile Include="Assets\Scripts\Controller.cs" />
@@ -89,9 +86,6 @@
     <Compile Include="Assets\Scripts\NewTimeBtn.cs" />
     <Compile Include="Assets\Scripts\PlanetIcon_MouseClick.cs" />
     <Compile Include="Assets\Scripts\SpeedSliderScript.cs" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Assets\Model\NumericalMethods\obj\Debug\NumericalMethods.csproj.FileListAbsolute.txt" />
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath)\SyntaxTree\UnityVS\2013\UnityVS.CSharp.targets" />
 </Project>
